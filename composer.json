@@ -1,0 +1,24 @@
+{
+    "name": "masitings/aws-secret-manager",
+    "autoload": {
+        "psr-4": {
+            "Masitings\\AwsSecretManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Masitings\\AwsSecretManager\\SecretManagerProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafi Halilintar",
+            "email": "masitingss@gmail.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.257"
+    }
+}
